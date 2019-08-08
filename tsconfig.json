@@ -7,5 +7,6 @@
     "rootDir": "./src",
     "moduleResolution": "node",
     "esModuleInterop": true
-  }
+  },
+  "exclude": ["node_modules"]
 }

@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.ts",
-    "build": "tsc",
-    "start": "npm run build && node build/app",
-    "lint": "tslint 'src/**/*.ts'"
+    "start": "tsc && node build/app"
   },
   "repository": {
     "type": "git",

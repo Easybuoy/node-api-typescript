@@ -11,11 +11,11 @@ app.get("/", (req: Request, res: Response): object => {
 
 app.use((req: Request, res: Response, next: NextFunction) => {
   const error = new Error("Route Not found");
-  error.status = 404;
   next(error);
 });
 
-app.use((error: { message: string; status: number }, req: Request, res: Response, next: NextFunction) => {
+app.use((error: { message: string; status: number }, req: Request, res: Response,next: NextFunction
+  ) => {
     res.status(error.status || 500);
     res.json({
       status: "error",
