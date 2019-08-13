@@ -1,7 +1,7 @@
 # Node-Api-Typescript
 This project was created for showing how to setup a node api using typescript.
 
-Link to article: 
+Link to article: https://dev.to/easybuoy/setting-up-node-api-with-typescript-2eeh
 
 ## Getting Started
 

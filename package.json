@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.ts",
-    "start": "tsc && node build/app"
+    "start": "npm run clean && tsc && node build/app",
+    "clean": "rm -rf build"
   },
   "repository": {
     "type": "git",
